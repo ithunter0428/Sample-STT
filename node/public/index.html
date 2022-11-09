@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gnani.AI</title>
+  </head>
+  <body>
+    <div style="text-align: center">
+      <select id="lang">
+        <option value="English">English</option>
+        <option value="Kannada">Kannada</option>
+        <option value="Tamil">Tamil</option>
+        <option value="Telugu">Telugu</option>
+        <option value="Gujrati">Gujrati</option>
+        <option value="Marathi">Marathi</option>
+        <option value="Hindi">Hindi</option>
+      </select>
+      <button
+        id="mainBtn"
+        style="height: 2rem; width: 5rem; margin: 5rem; font-size: 1rem;"
+      >
+        Start
+      </button>
+      <br />
+      <p id="respText"></p>
+    </div>
+  </body>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/audio.js"></script>
+  <script src="/script.js"></script>
+</html>
